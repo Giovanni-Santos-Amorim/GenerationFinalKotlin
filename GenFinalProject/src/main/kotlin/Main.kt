@@ -10,7 +10,7 @@ fun main()
                     print("Digite o seu nome: ")
                     val nomeDoador = readLine()!!
 
-                    print("Digite o seu cpf, somente números: ")
+                    print("Digite o seu endereço, somente números: ")
                     val enderecoDoador = readLine()!!
 
                     print("Digite o seu telefone: ")
@@ -95,4 +95,5 @@ fun inicio(): Int {
     } while (!(operation == 1 || operation == 2))
 
     return operation
+
 }

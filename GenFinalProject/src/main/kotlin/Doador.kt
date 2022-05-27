@@ -7,7 +7,7 @@ class Doador(nome: String, endereco: String, telefone: String, email: String, pr
         if (nome.isEmpty() || endereco.isEmpty() || cpf.isEmpty() || telefone.isEmpty()) {
             throw Exception(" Falha aos cadastrar, campos obrigatorios estao vazios !")
         } else {
-            println("Cadastro realizado com sucesso, bem vindo ao time e parabens por realizar uma boa ação")
+           println("Cadastro realizado com sucesso, bem vindo ao time e parabens por realizar uma boa ação")
         }
     }
 
