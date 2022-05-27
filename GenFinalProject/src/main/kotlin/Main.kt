@@ -7,20 +7,31 @@ fun main()
                 println("Insira sua informaçoes para se cadastrar como Doador: ")
 
                 print("Digite o seu nome: ")
-                val nomeDoador = readLine()
-
-                print("Digite o seu telefone: ")
-                val telefoneDoador = readLine()
-
-                print("Digite o seu email: ")
-                val emailDoador = readLine()
+                val nomeDoador = readLine()!!
 
                 print("Digite o seu cpf, somente números: ")
-                val cpfDoador = readLine()
+                val endereçoDoador = readLine()!!
 
-                print("Escolha uma cesta para Doar: ")
+                print("Digite o seu telefone: ")
+                val telefoneDoador = readLine()!!
+
+                print("Digite o seu email: ")
+                val emailDoador = readLine()!!
+
+                print("Digite o seu cpf, somente números: ")
+                val cpfDoador = readLine()!!
 
 
+                println("Escolha uma cesta para Doar:")
+
+                val doador1 = Doador(nomeDoador, endereçoDoador, telefoneDoador, emailDoador, cpfDoador)
+
+                println("Escolha qual cesta ira doar: ")
+
+                Ong.printlist()
+
+                var cesta = readln().toString()
+                doador1.doarCesta(cesta)
 
 
 
@@ -28,9 +39,9 @@ fun main()
 
             }
 
-            2 ->{
+           /* 2 ->{
                 println("Insira sua informaçoes para se cadastrar: ")
-            }
+            }*/
 
 
         }
