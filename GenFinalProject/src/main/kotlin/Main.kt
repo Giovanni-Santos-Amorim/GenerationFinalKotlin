@@ -10,7 +10,7 @@ fun main()
                     print("Digite o seu nome: ")
                     val nomeDoador = readLine()!!
 
-                    print("Digite o seu endereço, somente números: ")
+                    print("Digite o seu endereço: ")
                     val enderecoDoador = readLine()!!
 
                     print("Digite o seu telefone: ")
