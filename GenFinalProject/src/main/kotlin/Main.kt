@@ -4,13 +4,10 @@ fun main()
         when(inicio())
         {
             1 -> {
-                println("Insira sua informaçoes para se cadastrar: ")
+                println("Insira sua informaçoes para se cadastrar como Doador: ")
 
                 print("Digite o seu nome: ")
                 val nomeDoador = readLine()
-
-                print("Digite o seu endereco: ")
-                val enderecoDoador = readLine()
 
                 print("Digite o seu telefone: ")
                 val telefoneDoador = readLine()
@@ -20,6 +17,8 @@ fun main()
 
                 print("Digite o seu cpf, somente números: ")
                 val cpfDoador = readLine()
+
+                print("Escolha uma cesta para Doar: ")
 
 
 
@@ -37,6 +36,8 @@ fun main()
         }
 
     }while(true)
+
+
 }
 
 
