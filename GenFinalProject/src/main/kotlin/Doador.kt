@@ -1,6 +1,6 @@
 import java.util.Objects
 
-open class Doador(nome: String, endereco: String, telefone: String, email: String, private var cpf: String
+class Doador(nome: String, endereco: String, telefone: String, email: String, private var cpf: String
 ) {
 
     init {
@@ -16,7 +16,7 @@ open class Doador(nome: String, endereco: String, telefone: String, email: Strin
         if (cesta == "") {
             println("O campo 'cesta' esta vazio")
         } else {
-            println(" Cesta $cesta doada com sucesso")
+            println("Cesta $cesta doada com sucesso")
         }
     }
 }
