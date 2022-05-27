@@ -1,0 +1,2 @@
+class Doador(nome: String, ) {
+}
